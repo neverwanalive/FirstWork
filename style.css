@@ -1,10 +1,16 @@
 body {
     margin: 0;
     padding: 0;
+    background: linear-gradient( #1E1E1E, transparent 1px), linear-gradient( 90deg, #1E1E1E, transparent 1px);
+    background-size: 10px 10px;
+    background-position: center center;
+    background-color: black;
 }
 
 .top-block {
     background-image: url("assets/1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .header {
     font-size: 16px;
@@ -116,7 +122,6 @@ body {
     font-weight: 700;
     color: #ffffff;
     margin-left: 30px;
-    
 }
 
 .action-block__earned__total {
@@ -161,13 +166,10 @@ body {
 }
 
 .main {
-    background: linear-gradient( #1E1E1E, transparent 1px), linear-gradient( 90deg, #1E1E1E, transparent 1px);
-    background-size: 10px 10px;
-    background-position: center center;
-    background-color: black;
-    padding-top: 200px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding: 200px 300px;
+    padding-bottom: 0px;
+    max-width: 1320px;
+    margin: 0 auto;
 }
 
 .main__specialization {
@@ -314,6 +316,7 @@ body {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    padding: 0px 20px;
 }
 
 .main__benefits__container__block__header {
@@ -516,10 +519,12 @@ body {
 .main__teachers {
     padding-top: 200px;
     font-family: "Roboto";
+    width: 100%;
 }
 
 .main__teachers__head {
     display: flex;
+
 }
 
 .main__teachers__head__img {
@@ -538,6 +543,7 @@ body {
 }
 
 .main__teachers__container {
+    width: 100%;
     margin-top: 70px;
     display: flex;
     justify-content: space-around;
