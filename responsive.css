@@ -1,0 +1,286 @@
+/*
+MAX = 1920px 
+XLARGE = 1400px
+LARGE = 1024px
+MEDIUM = 768px
+*/
+
+@media only screen and (min-width: 1921px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__specialization { 
+        justify-content: space-evenly;
+    }
+    .main__fast-start {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main__fast-start__head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .main__benefits {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main__partners {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main__teachers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1919px) {
+    .top-block {
+        background-size: cover;
+        background-position: center;
+    }
+    .prom {
+        margin: 190px 200px;
+    }
+    .action-block {
+        padding: 0px 200px;
+    }  
+    .action-block__earned {
+        width: 40%;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 200px;
+    }
+    .main__fast-start__progress__container>div {
+        width: 250px;
+    }
+    .main__fast-start__progress__container__item {
+        width: 230px;
+     }  
+    .main__partners__table__image:nth-child(3) {
+        border-right: 0px solid #313131;
+    }
+    
+    .main__partners__table__image:nth-child(4) {
+        border-right: 1px solid #313131;
+    }
+    
+    .main__partners__table__image:nth-child(5) {
+        border-bottom: 1px solid #313131;
+    }
+    
+    .main__partners__table__image:nth-child(6) {
+        border-right: 0px solid #313131;
+        border-bottom: 1px solid #313131;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1399px) {
+    .top-block {
+        background-size: cover;
+        background-position: center;
+    }
+    .header__nav {
+        word-spacing: 20px;
+    }
+    .prom {
+        margin: 190px 150px;
+    }
+    .action-block {
+        flex-wrap: wrap;
+        padding: 0px 150px;
+        height: 200px;
+        align-items: center;
+        justify-content: space-evenly;
+    }  
+    .action-block__earned {
+        margin-top: 20px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 150px;
+    }
+    .main__specialization {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__specialization__info {
+        margin-left: 0px;
+        padding-top: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+        order: -1;
+    }
+    .main__fast-start {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main__fast-start__head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .main__fast-start__progress__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 350px;
+    }
+    .main__fast-start__progress__container>div {
+         width: 180px;
+    }
+    .main__fast-start__progress__container__item {
+        width: 160px;
+    }  
+    .main__benefits {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .main__partners {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 724px;
+    } 
+    .main__partners__head {
+        text-align: center;
+    }
+    .main__partners__table__image:nth-child(2) {
+        border-right: 0px solid #313131;
+    }
+    .main__partners__table__image:nth-child(4) {
+        border-right: 0px solid #313131;
+        border-bottom: 1px solid #313131;
+    }
+    .main__partners__table__image:nth-child(5) {
+        border-bottom: 1px solid #313131;
+    }
+    .main__partners__table__image:nth-child(6) {
+        border-right: 0px solid #313131;
+        border-bottom: 1px solid #313131;
+    }
+    .main__teachers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .top-block {
+        background-size: cover;
+        background-position: center;
+    }
+    .header {
+        padding: 40px 40px;
+    }
+    .header__nav {
+        word-spacing: 20px;
+    }
+    .prom {
+        margin: 190px 100px;
+    }
+    .action-block {
+        flex-wrap: wrap;
+        padding: 0px 100px;
+        height: 200px;
+        align-items: center;
+        justify-content: space-evenly;
+    }  
+    .action-block__earned {
+        margin-top: 20px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px;
+    }
+    .main__specialization {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__specialization__info {
+        margin-left: 0px;
+        padding-top: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+        order: -1;
+    }
+    .main__fast-start {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main__fast-start__head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .main__fast-start__progress__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 350px;
+    }
+    .main__fast-start__progress__container>div {
+         width: 180px;
+    }
+    .main__fast-start__progress__container__item {
+        width: 160px;
+    }  
+    .main__benefits {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .main__partners {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 724px;
+    } 
+    .main__partners__head {
+        text-align: center;
+    }
+    .main__partners__table__image:nth-child(2) {
+        border-right: 0px solid #313131;
+    }
+    .main__partners__table__image:nth-child(4) {
+        border-right: 0px solid #313131;
+        border-bottom: 1px solid #313131;
+    }
+    .main__partners__table__image:nth-child(5) {
+        border-bottom: 1px solid #313131;
+    }
+    .main__partners__table__image:nth-child(6) {
+        border-right: 0px solid #313131;
+        border-bottom: 1px solid #313131;
+    }
+    .main__teachers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
